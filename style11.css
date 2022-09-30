@@ -1,0 +1,506 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 18px;
+}
+
+/* Header */
+
+.top{
+    width: 100%;
+    height: 65px;
+    background-color:white;
+}
+
+.logo{
+    width: 6%;
+    float: left;
+    padding: 22px 15px; 
+}
+.logo:hover{
+    background-color: #c7c7c7;
+}
+.menu{
+    width: 94%;
+    float: right;
+    text-align: right;
+    padding: 20px 0;
+}
+.menu li{
+   display: inline-block;
+   padding: 0 10px;
+}
+.menu li a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    padding: 25px 0;
+}
+.list li a:hover{
+    background-color:#c7c7c7;
+}
+.list i{
+    padding-right: 5px;
+}
+
+/* background text, img */
+
+.background{
+    background-image: url(https://www.w3schools.com/w3images/mac.jpg?fbclid=IwAR3VoUe-ZfYHXsF86cWxWHhHu8MscUrzen-xzEB9xQGzJhS2ZyxkfAne934);
+    width: 100%;
+    height: 600px;
+    color: aliceblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text{
+    font-size: 70px;
+    font-weight: normal;
+    padding-top: 160px;
+    padding-left: 40px;
+}
+.paragraph{
+    font-size: 23px;
+    padding-left: 40px;
+    padding-top: 55px;
+}
+.background a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    width: 20%;
+    background-color: #a2a4a6;
+    text-align: center;
+    padding: 15px;
+    margin: 40px;
+    font-size: 18px;
+}
+.background a:hover{
+    background-color:  #dedede;
+}
+.icon{
+    padding: 80px 40px 50px 40px; 
+}
+.icon i:hover{
+    background-color:#757575 ;
+    opacity: 1.0;
+}
+
+/* about company*/
+
+.about-company{
+    text-align: center;
+    margin-top: 150px;
+}
+.features p{
+    margin-top: 25px;
+}
+
+/* iconimg */
+
+.iconimg{
+    display: flex;
+    padding: 10px 70px;
+}
+.pic{
+    padding: 10px 40px;
+    width: 25%;
+    margin-top: 50px;
+    text-align: center;
+}
+.pic h3{
+    padding: 20px 0;
+    font-weight: normal;
+}
+.pic p{
+    padding: 5px 5px;
+    font-size: 15px;
+}
+
+/* we know design */
+
+.design{
+    padding-top: 130px;
+    float: left;
+    padding-left: 20px;
+}
+.photo{
+    float: right;
+    padding: 100px 40px;
+    
+}
+.design a{
+    width: 35%;
+    text-align: center;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    margin: 20px 0;
+}
+.design p{
+    font-size: 15px;
+}
+.backcolor{
+    width: 100%;
+    height: 575px;
+    background-color: #f2f2f2;
+    margin-top: 150px;
+}
+.design p a:hover{
+    background-color: #a6a6a6;
+    color: black;
+}
+
+/*The team */
+
+.the-team{
+    padding-top: 120px;
+    text-align: center;
+}
+.the-team h3{
+    font-weight: normal;
+}
+.the-team p{
+    padding-top: 30px;
+}
+.teams{
+    display: flex;
+    margin: 10px;
+}
+.team{
+    width: 25%;
+    box-shadow: 0 15px 10px 0 #575758;
+    margin: 10px;
+}
+.team h1{
+    padding: 15px;
+    font-weight: normal;
+}
+.team h3{
+    padding: 10px 15px;
+    font-weight: normal;
+    font-size: 18px;
+    color: #4d4d4d;
+}
+.team p{
+    padding: 0px 15px; 
+    font-size: 16px;
+}
+.team p a{
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-size: 18px;
+    background-color: #f2f2f2;
+    padding: 8px;
+    margin: 18px 0;
+}
+.team p a:hover{
+    background-color: #cccccc;
+}
+.team i{
+    padding-right: 5px;
+}
+
+/* numbers */
+
+.numbers{
+    background-color: #757575;
+    margin-top: 170px;
+    display: flex;
+    height: 200px;
+    width: 100%;
+}
+.num{
+    width: 25%;
+    text-align: center;
+    font-size: 20px;
+    color: aliceblue;
+    font-weight: normal;
+    padding-top: 70px;
+}
+.num h2{
+    font-weight: normal;
+}
+
+/* our work */
+
+.works{
+    text-align: center;
+    padding-top: 160px;
+}
+.work h1{
+    font-weight: normal;
+}
+.work p{
+    padding-top: 30px;
+}
+.imgs{
+    display: block;
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+.imgs img:hover{
+    opacity: 0.60;
+}
+.gallery{
+    padding-top: 60px; 
+    height: 650px;
+}
+img{
+    width: 100%;
+}
+
+/* our skills */
+
+.skills{
+    padding-top: 100px;
+    padding-left: 20px;
+}
+.skills h1{
+    font-weight: normal;
+}
+.colors{
+    background-color: rgb(223, 222, 226);
+    height: 400px;
+    display: flex;
+    width: 100%;
+}
+.skill{
+    padding-top: 100px;
+    padding-left: 180px;
+}
+.skill p{
+    padding-bottom: 40px;
+}
+.skills p{
+    font-size: 16px;
+}
+
+
+/* plans */
+
+.plans{
+    text-align: center;
+    padding-top: 130px;
+    color: white;
+}
+.plans h1{
+    font-weight: normal;
+    font-size: 23px;
+}
+.plans p{
+    padding-top: 25px;
+}
+.plan{
+    padding-top: 90px;
+    width: 33%;
+    padding-left: 20px;
+    text-align: center;
+    font-weight: normal;
+    display: inline-block;
+}
+li{
+    list-style: none;
+}
+li.head{
+   background-color: black;
+   color: white;
+   font-size: 25px;
+   height: 100px;
+   
+}
+.plan li{
+    padding: 20px;
+    border-bottom: 1px solid #bfbfbf;
+}
+.plan ul{
+    border: 1px solid #bfbfbf;
+}
+.price{
+    font-size: 35px;
+}
+.price small{
+    font-size: 15px;
+    color: #8c8c8c;
+}
+.plan ul:hover{
+    box-shadow: 0 4px 8px 0 #8c8c8c;
+}
+li.button{
+    background-color: #e6e6e6; 
+    padding: 30px;  
+}
+.button a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    font-size: 15px;
+}
+li a:hover{
+    background-color: #cccccc;
+    color: black;
+}
+.color2{
+    background-color: #575758;
+    height: 950px;
+}
+.wh{
+    background-color: white;
+}
+li.heads{
+    background-color: orangered;
+    padding: 50px;
+}
+li.buttons a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    font-size: 15px;
+}
+li.buttons{
+    background-color:#e6e6e6;
+}
+/* contact */
+
+.contact{
+    text-align: center;
+    padding-top: 140px;
+    line-height: 60px;
+}
+.contacts{
+    padding: 20px;
+}
+.fromicon{
+    padding-left: 20px;
+}
+.icon2{
+    display: inline-block;
+}
+.icon3{
+    padding-right: 30px;
+}
+
+/* Form */
+input{
+    display: block;
+    width: 100%;
+    margin: auto;
+    padding: 12px;
+    margin-bottom: 18px;
+}
+.forms{
+    padding-top: 70px;
+}
+input[type=submit]{
+    background-color: black;
+    color: white;
+    width: 12%;
+    font-size: 16px;
+}
+input[type=submit]:hover{
+    background-color:#cccccc ;
+    color: #4d4d4d;
+}
+.btn{
+    float: left;
+}
+
+/* map */
+.map{
+    padding-top: 100px;
+    margin: 20px;
+    padding-bottom: 100px;
+}
+
+/* footer */
+
+.footer{
+    text-align: center;
+    padding-top: 90px;
+}
+.foot{
+    background-color:whitesmoke;
+    color:black;
+    width: 30%;
+    text-decoration: none;
+    padding:15px 30px;
+    font-size: 20px;
+}
+.fc{
+    padding-top: 40px;
+}
+.footer p{
+    padding-top: 30px;
+}
+.fcolor{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 300px;
+}
+.foot:hover{
+    background-color: #a2a4a6;
+}
+.fc i:hover{
+    background-color: #a2a4a6;
+    opacity: 1.00;
+}
+@media only screen and (max-width: 600px){
+
+    .background a {
+        width: 60%;
+    }
+    .iconimg{
+        display: block;
+    }
+    .pic{
+        width: 100%;
+    }
+    .design a {
+        width: 40%;
+    }
+    .teams{
+        display: block;
+    }
+    .team{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .skills p {
+        font-size: 10px;
+    }
+    .plan{
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    input{
+        display: block;
+        width: 100%;
+        margin: auto;
+        padding: 12px;
+        margin-bottom: 18px;
+        margin-bottom: 30px;
+    }
+    .background {
+        background-position: center;
+    }
+   
+
+}
+
+
+
+
